@@ -15,7 +15,8 @@ export default class AddToHomescreen extends Component {
 
   @tracked hasHiddenPopup = this.keyValueStore.getItem("hasHiddenPopup");
   @tracked showPopupTimer = false;
-  @tracked arrowUp = !window.matchMedia("(orientation: portrait)");
+  @tracked arrowUp = window.matchMedia("(orientation: landscape)").matches;
+  @tracked animate = false;
 
   constructor() {
     super(...arguments);
@@ -26,7 +27,7 @@ export default class AddToHomescreen extends Component {
       }
 
       this.showPopupTimer = true;
-    }, 1000);
+    }, settings.popup_timer);
   }
 
   get shouldRender() {
@@ -34,14 +35,19 @@ export default class AddToHomescreen extends Component {
     const isPWA = this.capabilities.isPwa;
     const isHub = this.capabilities.wasLaunchedFromDiscourseHub;
 
-    return (
+    if (
       this.currentUser &&
       this.showPopupTimer &&
       appleMobile &&
       !this.hasHiddenPopup &&
       !isPWA &&
       !isHub
-    );
+    ) {
+      discourseLater(() => {
+        this.animate = true;
+      }, 125);
+      return true;
+    }
   }
 
   get PWALabel() {
@@ -58,14 +64,14 @@ export default class AddToHomescreen extends Component {
     }
 
     window
-      .matchMedia("(orientation: portrait)")
+      .matchMedia("(orientation: landscape)")
       .addEventListener("change", this.handleOrientationChange);
   }
 
   @action
   teardown() {
     window
-      .matchMedia("(orientation: portrait)")
+      .matchMedia("(orientation: landscape)")
       .removeEventListener("change", this.handleOrientationChange);
   }
 

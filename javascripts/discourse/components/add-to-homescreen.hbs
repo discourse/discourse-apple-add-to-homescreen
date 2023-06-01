@@ -7,7 +7,7 @@
   <div
     {{did-insert this.setup}}
     {{will-destroy this.teardown}}
-    class={{concat-class "add-to-homescreen" (if this.showPopupTimer "show")}}
+    class={{concat-class "add-to-homescreen-outlet__content" (if this.animate "animate")}}
   >
     <MountWidget @widget="home-logo" @class="add-to-homescreen-outlet__logo" />
     <span class="add-to-homescreen__description">

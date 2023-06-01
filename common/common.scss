@@ -9,6 +9,7 @@
   display: none;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
+  transition: 0.5s all ease-in-out;
   &__button {
     position: absolute;
     right: 0;
@@ -17,14 +18,16 @@
   &__logo a {
     color: var(--primary);
   }
-
   #site-logo {
     max-width: calc(100% / 4);
   }
 }
 
-.add-to-homescreen-outlet:has(> .show) {
-  opacity: 1;
+.add-to-homescreen-outlet:has(> .add-to-homescreen-outlet__content) {
   visibility: visible;
   display: block;
+}
+
+.add-to-homescreen-outlet:has(> .animate) {
+  opacity: 1;
 }

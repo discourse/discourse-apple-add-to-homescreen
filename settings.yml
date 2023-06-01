@@ -1,0 +1,10 @@
+popup_timer:
+  type: enum
+  default: 5000
+  choices:
+  - 5000
+  - 10000
+  - 15000
+  - 30000
+  - 60000
+  description: "How long should the popup wait before appearing? (in milliseconds)"
