@@ -1,11 +1,10 @@
 import Component from "@glimmer/component";
-import { inject as service } from "@ember/service";
-import { action } from "@ember/object";
 import { tracked } from "@glimmer/tracking";
-import { later } from "@ember/runloop";
-import I18n from "I18n";
+import { action } from "@ember/object";
+import { inject as service } from "@ember/service";
 import discourseLater from "discourse-common/lib/later";
 import { bind } from "discourse-common/utils/decorators";
+import I18n from "I18n";
 
 export default class AddToHomescreen extends Component {
   @service capabilities;
