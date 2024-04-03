@@ -12,7 +12,7 @@
       (if this.animate "animate")
     }}
   >
-    <MountWidget @widget="home-logo" class="add-to-homescreen-outlet__logo" />
+    <Header::HomeLogo />
     <span class="add-to-homescreen__description">
       {{html-safe this.PWALabel}}
       {{#if this.arrowUp}}

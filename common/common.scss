@@ -15,11 +15,11 @@
     right: 0;
     top: 0;
   }
-  &__logo a {
-    color: var(--primary);
-  }
   #site-logo {
     max-width: calc(100% / 4);
+  }
+  .text-logo {
+    color: var(--primary);
   }
 }
 
