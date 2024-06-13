@@ -7,4 +7,3 @@ popup_timer:
   - 15000
   - 30000
   - 60000
-  description: "How long should the popup wait before appearing? (in milliseconds)"
