@@ -1,8 +1,8 @@
 {
-  "about_url": null,
+  "about_url": "https://meta.discourse.org/t/ios-add-to-homescreen-popup/266897",
   "license_url": null,
   "assets": {
   },
-  "name": "Add to homescreen",
+  "name": "iOS Add To Homescreen",
   "component": true
 }
