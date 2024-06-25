@@ -5,3 +5,4 @@
 # https://translate.discourse.org/
 
 tr_TR:
+  pwa_text: "iOS cihazınıza <b>%{siteTitle}</b> yükleyin. Paylaş'a dokunun ve ardından <b>Ana Ekrana Ekle'ye dokunun.</b>"
