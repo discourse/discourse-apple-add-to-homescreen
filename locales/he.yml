@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 he:
+  pwa_text: "יש להתקין את <b>%{siteTitle}</b> במכשיר ה־iOS שלך. לגעת בשיתוף ואז ב<b>הוספה למסך הבית.</b>"
+  theme_metadata:
+    settings:
+      popup_timer: "למשך כמה זמן אמור להופיע החלון הקופץ לפני שייעלם? (באלפיות השנייה)"

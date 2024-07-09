@@ -6,3 +6,6 @@
 
 de:
   pwa_text: "Installiere <b>%{siteTitle}</b> auf deinem iOS-Gerät. Tippe auf Teilen und dann auf <b>Zum Startbildschirm hinzufügen.</b>"
+  theme_metadata:
+    settings:
+      popup_timer: "Wie lange soll das Popup warten, bevor es erscheint? (in Millisekunden)"
