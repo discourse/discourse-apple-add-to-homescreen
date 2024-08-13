@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 ru:
+  pwa_text: "Устанавливает <b>%{siteTitle}</b> на вашем устройстве iOS. Нажмите «Поделиться», а затем <b>«Добавить «На экран \"Домой\"».</b>"
+  theme_metadata:
+    settings:
+      popup_timer: "Как долго ждать появления всплывающего окна? (В миллисекундах)"

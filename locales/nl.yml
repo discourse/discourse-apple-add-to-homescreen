@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 nl:
+  pwa_text: "Installeer <b>%{siteTitle}</b> op je iOS-apparaat. Tik op delen en vervolgens op <b>Voeg toe aan startscherm</b>."
+  theme_metadata:
+    settings:
+      popup_timer: "Hoelang moet de pop-up wachten voordat deze verschijnt? (in milliseconden)"
