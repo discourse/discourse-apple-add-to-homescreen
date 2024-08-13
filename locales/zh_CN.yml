@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 zh_CN:
+  pwa_text: "在 iOS 设备上安装 <b>%{siteTitle}</b>。轻点“共享”，然后轻点<b>添加到主屏幕</b>。"
+  theme_metadata:
+    settings:
+      popup_timer: "弹出窗口需要等多长时间才会显示？（以毫秒为单位）"

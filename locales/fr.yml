@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 fr:
+  pwa_text: "Installez <b>%{siteTitle}</b> sur votre appareil iOS. Appuyez sur Partager, puis sur <b>Ajouter à l'écran d'accueil.</b>"
+  theme_metadata:
+    settings:
+      popup_timer: "Combien de temps la fenêtre contextuelle doit-elle attendre avant d'apparaître ? (en millisecondes)"

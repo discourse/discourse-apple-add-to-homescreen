@@ -5,4 +5,7 @@
 # https://translate.discourse.org/
 
 tr_TR:
-  pwa_text: "iOS cihazınıza <b>%{siteTitle}</b> yükleyin. Paylaş'a dokunun ve ardından <b>Ana Ekrana Ekle'ye dokunun.</b>"
+  pwa_text: "iOS cihazınıza <b>%{siteTitle}</b> yükleyin. Paylaş seçeneğine dokunun ve ardından <b>Ana Ekrana Ekle seçeneğine dokunun.</b>"
+  theme_metadata:
+    settings:
+      popup_timer: "Açılır pencerenin görünmesi için ne kadar süre beklemesi gerekir? (milisaniye cinsinden)"

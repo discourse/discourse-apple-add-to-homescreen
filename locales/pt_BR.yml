@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 pt_BR:
+  pwa_text: "Instale <b>%{siteTitle}</b> no seu dispositivo iOS. Toque em compartinhar e, em seguida, <b>Adicionar à Página Inicial</b>."
+  theme_metadata:
+    settings:
+      popup_timer: "Quanto tempo é preciso esperar até a janela aparecer? (em milissegundos)"

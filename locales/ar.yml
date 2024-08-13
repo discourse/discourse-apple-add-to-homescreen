@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 ar:
+  pwa_text: "قُم بتثبيت <b>%{siteTitle}</b> على جهاز iOS الخاص بك. اضغط على مشاركة ثم <b>إضافة إلى الشاشة الرئيسية.</b>"
+  theme_metadata:
+    settings:
+      popup_timer: "ما المدة التي يجب أن تنتظرها النافذة المنبثقة قبل ظهورها؟ (بالميللي ثانية)"

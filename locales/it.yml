@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 it:
+  pwa_text: "Installa <b>%{siteTitle}</b> sul tuo dispositivo iOS. Tocca Condividi e poi <b>Aggiungi alla schermata principale.</b>"
+  theme_metadata:
+    settings:
+      popup_timer: "Quanto tempo deve attendere il popup prima di apparire? (in millisecondi)"

@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 ja:
+  pwa_text: "iOS デバイスに <b>%{siteTitle}</b> をインストールします。共有をタップして<b>ホーム画面に追加</b>をタップします。"
+  theme_metadata:
+    settings:
+      popup_timer: "ポップアップが表示されるまでどれくらいの時間がかかりますか？(ミリ秒単位)"

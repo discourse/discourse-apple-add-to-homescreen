@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 es:
+  pwa_text: "Instala <b>%{siteTitle}</b> en tu dispositivo iOS. Pulsa compartir y, a continuación, <b>Añadir a la pantalla de inicio.</b>"
+  theme_metadata:
+    settings:
+      popup_timer: "¿Cuánto tiempo debe esperar la ventana emergente antes de aparecer? (en milisegundos)"

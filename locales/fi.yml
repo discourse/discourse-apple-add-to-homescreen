@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 fi:
+  pwa_text: "Asenna <b>%{siteTitle}</b> iOS-laitteellesi. Napauta jakovalintaa ja sitten <b>Lisää Koti-valikkoon.</b>"
+  theme_metadata:
+    settings:
+      popup_timer: "Kuinka kauan ponnahdusikkuna odottaa ennen kuin se tulee näkyviin? (millisekunteina)"
