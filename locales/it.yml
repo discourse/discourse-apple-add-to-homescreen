@@ -1,9 +1,3 @@
-# WARNING: Never edit this file.
-# It will be overwritten when translations are pulled from Crowdin.
-#
-# To work with us on translations, join this project:
-# https://translate.discourse.org/
-
 it:
   pwa_text: "Installa <b>%{siteTitle}</b> sul tuo dispositivo iOS. Tocca Condividi e poi <b>Aggiungi alla schermata principale.</b>"
   theme_metadata:

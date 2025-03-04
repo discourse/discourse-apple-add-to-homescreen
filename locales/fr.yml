@@ -1,9 +1,3 @@
-# WARNING: Never edit this file.
-# It will be overwritten when translations are pulled from Crowdin.
-#
-# To work with us on translations, join this project:
-# https://translate.discourse.org/
-
 fr:
   pwa_text: "Installez <b>%{siteTitle}</b> sur votre appareil iOS. Appuyez sur Partager, puis sur <b>Ajouter à l'écran d'accueil.</b>"
   theme_metadata:
