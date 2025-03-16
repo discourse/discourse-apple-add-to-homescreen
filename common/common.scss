@@ -10,14 +10,17 @@
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: 0.5s all ease-in-out;
+
   &__button {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   #site-logo {
     max-width: calc(100% / 4);
   }
+
   .text-logo {
     color: var(--primary);
   }
