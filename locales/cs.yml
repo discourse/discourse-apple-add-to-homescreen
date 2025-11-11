@@ -5,3 +5,7 @@
 # https://translate.discourse.org/
 
 cs:
+  pwa_text: "Nainstalujte si <b>%{siteTitle}</b> na své iOS zařízení. Klepněte na Sdílet a poté na <b>Přidat na plochu.</b>"
+  theme_metadata:
+    settings:
+      popup_timer: "Jak dlouho by mělo vyskakovací okno čekat, než se zobrazí? (v milisekundách)"
